@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   build:
-    runs-on: redhat8-latest
+    runs-on: redhat-latest
 
     strategy:
       matrix:
